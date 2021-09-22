@@ -1,0 +1,137 @@
+.mce-visualblocks p {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhCQAJAJEAAAAAAP   background-repeat: no-repeat;
+}
+
+.mce-visualblocks h1 {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDQAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks h2 {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks h3 {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks h4 {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks h5 {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks h6 {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks div:not([data-mce-bogus]) {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhEgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks section {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhKAAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks article {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhKgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks blockquote {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  background-image: url(data:image/gif;base64,R0lGODlhPgAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks address {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhLQAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks pre {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin-left: 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhFQAKAIABALu7uwAAACH5BAEAAAEALAAAAAAVAAoAAAIjjI+ZoN0cgDwSmnpz1NCueYERhnibZVKLNnbOq8IvKpJtVQAAOw==);
+  background-repeat: no-repeat;
+}
+
+.mce-visualblocks figure {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhJAAKAIAAALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks hgroup {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhJwAKAIABALu7uwAAACH5BAEAAAEALAAAAAAnAAoAAAI3jI+pywYNI3uB0gpsRtt5fFnfNZaVSYJil4Wo03Hv6Z62uOCgiXH1kZIIJ8NiIxRrAZNMZAtQAAA7);
+  background-repeat: no-repeat;
+}
+
+.mce-visualblocks aside {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhHgAKAIABAKqqqv   background-repeat: no-repeat;
+}
+
+.mce-visualblocks figcaption {
+  border: 1px dashed #BBB;
+}
+
+.mce-visualblocks ul {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDQAKAIAAALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks ol {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDQAKAIABALu7u   background-repeat: no-repeat;
+}
+
+.mce-visualblocks dl {
+  padding-top: 10px;
+  border: 1px dashed #BBB;
+  margin: 0 0 1em 3px;
+  background-image: url(data:image/gif;base64,R0lGODlhDQAKAIABALu7u   background-repeat: no-repeat;
+}

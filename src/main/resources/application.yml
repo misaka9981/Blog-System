@@ -1,0 +1,51 @@
+server:
+  port: 8080
+spring:
+  mvc:
+    favicon:
+      enabled: false
+  profiles:
+    active: dev
+  http:
+    converters:
+      preferred-json-mapper: gson
+  servlet:
+    multipart:
+      max-file-size: 10MB
+  # 配置缓存,初始缓存容量,最大容量,过期时间
+  cache:
+    type: caffeine
+    caffeine:
+      spec: initialCapacity=10,maximumSize=1000,expireAfterAccess=1h
+  datasource:
+    schema: # schema.sql中一般存放的是DDL脚本，即通常为创建或更新库表的脚本
+      - classpath:sql/schema.sql
+      - classpath:sql/schema1.sql
+      - classpath:sql/schema2.sql
+    data: classpath:sql/data.sql # data.sql中一般是DML脚本，即通常为数据插入脚本
+    initialization-mode: always # spring某个版本之后需要加上这句，否则不会自动执行sql文件
+    separator: $$
+    # hikari配置
+    hikari:
+      auto-commit: true
+      connection-timeout: 10000
+      idle-timeout: 300000
+      max-lifetime: 600000
+      minimum-idle: 5
+      maximum-pool-size: 20
+# mybatis-plus 配置
+mybatis-plus:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  type-aliases-package: com.cxy.blog.model
+  type-enums-package: com.cxy.blog.model.enums
+  global-config:
+    # 数据库相关配置
+    db-config:
+      # 数据库表前缀
+      table-prefix: blog_
+      #主键类型
+      id-type: auto
+      #数据库类型
+      db-type: mysql
+    banner: false

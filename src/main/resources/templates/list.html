@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http:       layout:decorate="~{common/layout}">
+<head>
+    <title th:text="${info.name}"></title>
+    <meta name="keywords" th:content="${GLOBAL.BLOG_KEYWORDS}+','+${info.name}">
+    <meta name="description" th:content="${GLOBAL.BLOG_DESCRIPTION}">
+</head>
+<body>
+<div layout:fragment="content">
+    <!-- 内容主体 -->
+    <div id="article-list">
+        <div layout:replace="~{common/article-list(list=${page.records})}"></div>
+    </div>
+    <!-- 内容主体结束 -->
+
+    <!-- 分页 -->
+    <div id="gal-pagination" class="clearfix" th:utext="${pageHtml}"></div>
+    <!-- 分页结束 -->
+</div>
+</body>
+</html>

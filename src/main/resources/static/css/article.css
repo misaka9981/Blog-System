@@ -1,0 +1,118 @@
+.article-content{
+    font-size: 1.2em;
+}
+.article-content h1 {
+    font-size: 24px
+}
+
+.article-content h2 {
+    font-size: 22px
+}
+
+.article-content h3 {
+    font-size: 20px
+}
+
+.article-content h4 {
+    font-size: 18px
+}
+
+.article-content h5 {
+    font-size: 16px
+}
+
+.article-content h6 {
+    font-size: 14px
+}
+
+.article-content h1, .article-content h2, .article-content h3, .article-content h4, .article-content h5, .article-content h6 {
+    color: #3f51b5;
+    font-weight: bold;
+    line-height: 1.5;
+    background-color: rgba(255, 255, 255, 0.51);
+    padding: 10px 20px;
+    margin: 15px 0;
+    border-left: 5px solid rgb(0, 191, 255);
+}
+.article-tags a {
+    display: inline-block;
+    padding: 2px 6px 3px;
+    margin: 0 2px;
+    color: #fff;
+    background-color: #4a4a4a;
+    opacity: .70;
+    filter: alpha(opacity=90);
+}
+
+.article-tags a:nth-child(5n) {
+    background-color: #4a4a4a
+}
+
+.article-tags a:nth-child(5n+1) {
+    background-color: #428bca
+}
+
+.article-tags a:nth-child(5n+2) {
+    background-color: #5cb85c
+}
+
+.article-tags a:nth-child(5n+3) {
+    background-color: #d9534f
+}
+
+.article-tags a:nth-child(5n+4) {
+    background-color: #f0ad4e
+}
+
+.content-article blockquote {
+    border-color: #00bfff;
+    background-color: rgba(255, 255, 255, 0.51);
+}
+
+.content-article blockquote p {
+    font-size: 12pt;
+    COLOR: #3399CC;
+    font-weight: 300;
+    line-height: 1.25;
+}
+
+.comment-input {
+    border-radius: 4px;
+    background-color: transparent;
+    border: 2px solid #c1c1c1;
+    height: 30px;
+    width: 300px;
+}
+
+.comment-input:focus {
+    background-color: rgba(255, 255, 255, 0.9);
+    outline: 0;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    border: 2px solid #d9534f
+}
+.statement{
+    font-size: 11pt;
+    margin-top: 20px;
+}
+.previous-next-links {
+    line-height: 24px;
+    overflow: hidden;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgba(217, 237, 247, 0.8);
+    box-shadow: 0 1px 3px rgba(0,37,55,.05);
+    box-sizing: border-box;
+}
+.previous-next-links a {
+    color: #1981ad;
+}
+.previous-design-link {
+     float: left;
+ }
+.next-design-link {
+    float: right;
+}
